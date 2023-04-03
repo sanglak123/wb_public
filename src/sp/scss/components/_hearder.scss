@@ -1,0 +1,27 @@
+#hearder {
+  .hearder_link {
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: 0.5s;
+    }
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+  .li_active {
+    color: white;
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+    }
+  }
+}

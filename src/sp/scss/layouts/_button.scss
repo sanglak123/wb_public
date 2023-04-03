@@ -1,0 +1,30 @@
+.btn_success {
+  background-color: $blue_300;
+  color: white;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid white;
+  min-width: 100px;
+  margin: 0.3rem;
+  transition: 0.5s;
+  &:hover {
+    background-color: $blue_200;
+  }
+}
+
+.btn_success_active {
+  background-color: $blue_300;
+  color: white;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid white;
+  min-width: 100px;
+  margin: 0.3rem;
+  transition: 0.5s;
+  &:hover {
+    background-color: white;
+    color: $blue_400;
+  }
+}

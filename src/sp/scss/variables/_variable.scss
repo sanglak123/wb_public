@@ -1,0 +1,27 @@
+$green_400: #173728;
+$green_200: #40785c;
+
+$blue_400: #2957ad;
+$blue_300: #0059ff;
+$blue_200: #5990f6;
+$blue_100: #8fb5f8;
+
+//font
+@font-face {
+  font-family: anton_black;
+  src: url("/font/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: open_sans_bold;
+  src: url("/font/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: open_sans_light;
+  src: url("/font/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: open_sans_medium;
+  src: url("/font/OpenSans-Medium.ttf");
+}

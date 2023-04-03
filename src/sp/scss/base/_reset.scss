@@ -1,0 +1,38 @@
+html,
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.bg_green {
+  background-color: $green_400 !important;
+}
+.bg_blue_400 {
+  background-color: $blue_400 !important;
+}
+.bg_blue_300 {
+  background-color: $blue_300 !important;
+}
+.bg_blue_200 {
+  background-color: $blue_200 !important;
+}
+.bg_blue_100 {
+  background-color: $blue_100 !important;
+}
+.txt_white {
+  color: white !important;
+}
+.txt_blue_400 {
+  color: $blue_400 !important;
+}
+.txt_blue_300 {
+  color: $blue_300 !important;
+}
+.txt_blue_200 {
+  color: $blue_200 !important;
+}
+.txt_blue_100 {
+  color: $blue_100 !important;
+}
